@@ -1,21 +1,27 @@
 {
   "name": "@windypear/koishi-plugin-menuextend",
   "description": "扩展你的帮助菜单！",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
     "dist"
   ],
+  "contributors": [
+    "FireGuo <hjrluobo2h@qq.com>",
+    "WindyPear-Team <fireguo@flweb.cn>"
+  ],
   "license": "MIT",
-  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WindyPear-Team/koishi-plugin-menuextend.git"
+  },
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.18.0"
   }
