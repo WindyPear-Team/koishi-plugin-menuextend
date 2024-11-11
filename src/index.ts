@@ -40,10 +40,11 @@ export function apply(ctx: Context, config: Config) {
           response += `  ${config.prefix}${command}  ${desc}\n`
         }
 
-        response += `\n${footer}`
+        response += `${footer}`
         
         // 返回给用户
-        return session.send(response)
+        session.send(response)
+        return
       })
   }
 }
